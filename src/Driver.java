@@ -108,10 +108,10 @@ public class Driver {
 	static String[][] populateCategories(String text) throws TwitterException {
 
 		ConfigurationBuilder connect2Twitter = new ConfigurationBuilder();
-		connect2Twitter.setDebugEnabled(true).setOAuthConsumerKey("uDRdaSrMzHUsTAWV5M95GvlnD")
-				.setOAuthConsumerSecret("Z99B5f8PtWlCPc90M0XqqPpRB1KAPT46N4PA9bHA0gDetjvjfF")
-				.setOAuthAccessToken("1056288155232419841-qw855TT9lRkXbnX4XnxYyoMCyna4fS")
-				.setOAuthAccessTokenSecret("yiDmPs0TrcV961KOHrXu7ZWROgtxogqpkvShKlIGTazAk");
+		connect2Twitter.setDebugEnabled(true).setOAuthConsumerKey("")
+				.setOAuthConsumerSecret("")
+				.setOAuthAccessToken("")
+				.setOAuthAccessTokenSecret("");
 		TwitterFactory tf = new TwitterFactory(connect2Twitter.build());
 		Twitter twit = tf.getInstance();
 
