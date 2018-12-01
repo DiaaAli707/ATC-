@@ -106,7 +106,7 @@ public class Driver {
 	}
 
 	static String[][] populateCategories(String text) throws TwitterException {
-
+		// insert your api data here
 		ConfigurationBuilder connect2Twitter = new ConfigurationBuilder();
 		connect2Twitter.setDebugEnabled(true).setOAuthConsumerKey("")
 				.setOAuthConsumerSecret("")
